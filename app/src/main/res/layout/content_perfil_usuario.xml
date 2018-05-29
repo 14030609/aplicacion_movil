@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fa.practica3.perfilUsuario">
+
+    <TextView
+        android:id="@+id/textView_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Mis datos"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout1"
+        android:layout_below="@+id/textView_perfil"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textView_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre: "
+            android:layout_below="@+id/textView_perfil"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="115dp"
+            android:layout_centerHorizontal="true"/>
+
+        <!-- Otro Textview o mostrar en ese de arriba? -->
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout2"
+        android:layout_below="@+id/layout1"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textView_apellido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellidos: "
+
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="115dp"
+            android:layout_centerHorizontal="true"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout3"
+        android:layout_below="@+id/layout2"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textView_rfc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RFC: "
+
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="115dp"
+            android:layout_centerHorizontal="true"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout4"
+        android:layout_below="@+id/layout3"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textView_correo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="115dp"
+            android:layout_centerHorizontal="true"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/profile"
+            android:title="Perfil" />
+
+        <item
+            android:id="@+id/nav_productos"
+            android:icon="@drawable/product"
+            android:title="Productos" />
+
+        <item
+            android:id="@+id/nav_carrito"
+            android:icon="@drawable/cart"
+            android:title="Mi carrito" />
+        <item
+            android:id="@+id/nav_cupones"
+            android:icon="@drawable/coupon"
+            android:title="Cupones" />
+
+        <item
+            android:id="@+id/nav_compras"
+            android:icon="@drawable/buys"
+            android:title="Mis compras" />
+
+        <item
+            android:id="@+id/nav_metodoPago"
+            android:icon="@drawable/cart"
+            android:title="Metodos de pago" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Cerrar sesión" />
+
+    </group>
+
+
+
+</menu>

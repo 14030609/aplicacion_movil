@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fa.practica3.Signup">
+
+    <TextView
+        android:id="@+id/textView_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Regístrate"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre: "
+        android:layout_below="@+id/textView_signup"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="115dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editText_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_toRightOf="@+id/textView_nombre"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="151dp"
+        android:layout_centerHorizontal="true"
+        android:layout_toEndOf="@+id/textView_nombre"/>
+
+    <TextView
+        android:id="@+id/textView_apellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellidos: "
+        android:layout_below="@+id/textView_nombre"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="115dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editText_apellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_toRightOf="@+id/textView_apellido"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="151dp"
+        android:layout_centerHorizontal="true"
+        android:layout_toEndOf="@+id/textView_apellido"/>
+
+    <TextView
+        android:id="@+id/textView_rfc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RFC: "
+        android:layout_below="@+id/textView_apellido"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="115dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editText_rfc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_toRightOf="@+id/textView_rfc"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="151dp"
+        android:layout_centerHorizontal="true"
+        android:layout_toEndOf="@+id/textView_rfc"/>
+
+    <TextView
+        android:id="@+id/textView_correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo electrónico: "
+        android:layout_below="@+id/textView_rfc"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="115dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editText_correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_toRightOf="@+id/textView_correo"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="151dp"
+        android:layout_centerHorizontal="true"
+        android:layout_toEndOf="@+id/textView_correo"/>
+
+    <Button
+        android:id="@+id/button_aceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:layout_below="@+id/textView_correo"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button_cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:layout_below="@+id/button_aceptar"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

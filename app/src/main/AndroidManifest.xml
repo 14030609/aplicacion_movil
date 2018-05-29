@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fa.practica3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuUsuario"
+            android:label="@string/title_activity_menu_usuario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".perfilUsuario"
+            android:label="@string/title_activity_perfil_usuario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Productos"
+            android:label="@string/title_activity_productos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CarritoActivity"
+            android:label="@string/title_activity_carrito"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CuponesActivity"
+            android:label="@string/title_activity_cupones"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ComprasActivity"
+            android:label="@string/title_activity_compras"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CuponDescActivity"
+            android:label="@string/title_activity_cupon_desc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MetodoPagoActivity"
+            android:label="@string/title_activity_metodo_pago"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GeneraCompraActivity"
+            android:label="@string/title_activity_genera_compra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NuevosProductosActivity"
+            android:label="@string/title_activity_nuevos_productos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProInCompraActivity"
+            android:label="@string/title_activity_pro_in_compra"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

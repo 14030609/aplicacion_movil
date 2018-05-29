@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fa.practica3.CarritoActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/linear">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_viewListCarrito"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/linear"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/button_regresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atras"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffffff"/>
+        <Button
+            android:layout_marginLeft="15dp"
+            android:id="@+id/buttonComprar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comprar"
+            android:background="@color/colorPrimaryDark"
+            android:layout_toRightOf="@id/button_regresar"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+
+</RelativeLayout>
